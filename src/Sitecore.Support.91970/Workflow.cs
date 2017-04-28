@@ -1,14 +1,14 @@
-﻿namespace Sitecore.Support
+﻿namespace Sitecore.Support.Shell.Feeds.FeedTypes
 {
     using System;
     using System.Collections.Generic;
+    using Data.Items;
     using System.Linq;
     using System.ServiceModel.Syndication;
     using System.Web;
-    using Data.Items;
     using Workflows;
 
-    public class Workflow : Shell.Feeds.FeedTypes.Workflow
+    public class Workflow : Sitecore.Shell.Feeds.FeedTypes.Workflow
     {
         public Workflow(Item feedItem) : base(feedItem)
         {
